@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+   <!--
+      New Perspectives on HTML and CSS
+      Tutorial 8
+      Case Problem 1
+
+      dessertWeb Sample Recipe
+      Author: Michelle Pierce
+      Date:   11/01/2016
+
+      Filename:         recipe.htm
+      Supporting files: dw.png, dwbase.css, dweffects.css, dwlayout.css,
+                        dwprint.css, halfstar.png, modernizr-1.5.js,
+                        star.png, torte.jpg
+
+   -->
+
+      <meta charset="UTF-8" />
+
+      <title>Apple Bavarian Torte</title>
+      <script src="modernizr-1.5.js"></script>
+      
+      <link href="dwbase.css" rel="stylesheet" type="text/css" />
+	  <link href="dweffects.css" rel="stylesheet" type="text/css" media="screen" />	  
+      <link href="dwlayout.css" rel="stylesheet" type="text/css" media="screen" />
+      <link href="dwprint.css" rel="stylesheet" type="text/css" media="print" />
+
+   </head>
+
+   <body>
+
+      <header>
+         <div id="div1">
+            Recipes | Ingredients | Articles <br />
+            <input type="search" id="sbox" name="sfield" />
+            <input type="button" id="sbutton" value="Search" placeholder="search term" />
+         </div>
+         <div id="div2">
+            Password <br />
+            <input type="text" id="pwd" name="pwd" placeholder="password" />
+            <input type="button" id="lbutton" value="Log In" />
+         </div>
+         <div id="div3">
+            User Name <br />
+            <input type="text" id="user" name="user" placeholder="username" />
+         </div>
+
+
+         <h1>dessertWeb</h1>
+         <nav class="horizontal">
+            <ul>
+               <li><a href="#">recipes</a></li>
+               <li><a href="#">menus</a></li>
+               <li><a href="#">holidays</a></li>
+               <li><a href="#">market</a></li>
+               <li><a href="#">shopping</a></li>
+               <li><a href="#">columns</a></li>
+               <li><a href="#">messages</a></li>
+            </ul>
+         </nav>
+
+      </header>
+
+
+      <section id="left">
+
+         <nav class="vertical">
+            <h1>Categories</h1>
+            <ul>
+               <li><a href="#">Cakes</a></li>
+               <li><a href="#">Candies</a></li>
+               <li><a href="#">Chocolate</a></li>
+               <li><a href="#">Cookies</a></li>
+               <li><a href="#">Crisps</a></li>
+               <li><a href="#">Crumbles</a></li>
+               <li><a href="#">Custards</a></li>
+               <li><a href="#">Frozen Treats</a></li>
+               <li><a href="#">Gelatins</a></li>
+               <li><a href="#">Liqueur Desserts</a></li>
+               <li><a href="#">Marshmallows</a></li>
+               <li><a href="#">Meringues</a></li>
+               <li><a href="#">Mousse</a></li>
+               <li><a href="#">Pies</a></li>
+               <li><a href="#">Pralines</a></li>
+               <li><a href="#">Sauces</a></li>
+               <li><a href="#">Truffles</a></li>
+            </ul>
+         </nav>
+
+         <nav class="vertical">
+            <h1>Related Recipes</h1>
+            <ul>
+               <li><a href="#">Apple Crisp</a></li>
+               <li><a href="#">Apple Fingers</a></li>
+               <li><a href="#">Apple Streudel</a></li>
+               <li><a href="#">Cherry Torte</a></li>
+               <li><a href="#">Fruit Pie</a></li>
+               <li><a href="#">Parfait</a></li>
+               <li><a href="#">Strawberry Torte</a></li>
+            </ul>
+         </nav>
+
+      </section>
+
+      <section id="center">
+
+         <article>
+            <hgroup>
+               <h1>Apple Bavarian Torte
+                   <img src="star.png" alt="3 1/2 stars" />
+                   <img src="star.png" alt="" />
+                   <img src="star.png" alt="" />
+                   <img src="halfstar.png" alt="" />
+               </h1>
+               <h2>by Lemking</h2>
+            </hgroup>
+
+            <img id="dishimg" src="torte.jpg" alt="Torte image" width="250" />
+            <p>A classic European torte baked in a springform pan. Cream cheese, 
+               sliced almonds, and apples make this the perfect holiday treat 
+               (12 servings).
+            </p>
+            <p><a href="#">Rate/Review</a> | <a href="#">Review Page</a></p>
+         </article>
+
+            <aside>
+               <h1>Recipe Box</h1>
+               <ul>
+                  <li><a href="#">Add to Recipe Box</a></li>
+                  <li><a href="#">Add to Shopping List</a></li>
+                  <li><a href="#">Share Recipe</a></li>
+                  <li><a href="#">Add to Menu</a></li>
+                  <li><a href="#">Customize Recipe</a></li>
+                  <li><a href="#">Share/Email</a></li>
+               </ul>
+            </aside>
+
+            <h2>Ingredients</h2>	
+            <ul>
+               <li>1/2 cup butter</li>
+               <li>1/3 cup white sugar</li> 
+               <li>1/4 teaspoon vanilla extract</li>
+               <li>1 cup all-purpose flour</li> 
+               <li>1 (8 ounce) package cream cheese</li>
+               <li>1/4 cup white sugar</li>
+               <li>1 egg</li>
+               <li>1/2 teaspoon vanilla extract</li>
+               <li>6 apples - peeled, cored, and sliced</li> 
+               <li>1/3 cup white sugar</li> 
+               <li>1/2 teaspoon ground cinnamon</li>
+               <li>1/4 cup sliced almonds</li>
+            </ul>
+
+            <h2 id="last">Directions</h2>
+            <ol>
+               <li>Preheat oven to 450&deg; F (230&deg; C).</li>
+               <li>Cream together butter, sugar, vanilla, and flour.</li>
+               <li>Press crust mixture into the flat bottom of a 9-inch springform pan. 
+                   Set aside.</li>
+               <li>In a medium bowl, blend cream cheese and sugar. Beat in egg and vanilla.
+                   Pour cheese mixture over crust.</li>
+               <li>Toss apples with sugar and cinnamon. Spread apple 
+                   mixture over all.</li>
+               <li>Bake for 10 minutes. Reduce heat to 400&deg; F (200&deg; C) and continue 
+                   baking for 25 minutes.</li>
+               <li>Sprinkle almonds over top of torte. Continue baking until lightly browned.
+                   Cool before removing from pan.</li>
+            </ol>
+      </section>
+
+      <section id="right">
+
+         <h1>Reviews</h1>
+         <blockquote>
+            <p>
+               <img src="star.png" alt="4 stars" /> <img src="star.png" alt="" />
+               <img src="star.png" alt="" /> <img src="star.png" alt="" />
+            </p>
+            <p>I loved the buttery taste of the crust which complements the apples 
+               very nicely.</p>
+            <p>
+               &mdash; Reviewed on Sep. 22, 2014 by MMASON.
+            </p>
+         </blockquote>
+                
+         <blockquote>
+            <p>
+               <img src="star.png" alt="2 stars" /> <img src="star.png" alt="" />
+            </p>
+            <p>Nothing special. I like the crust, but there was a little too much 
+               of it for my taste, and I liked the filling but there was too little 
+               of it. I thought the crunchy apples combined with the sliced almonds 
+               detracted from the overall flavor.</p>
+            <p>
+               &mdash; Reviewed on Sep. 1, 2014 by GLENDACHEF.
+            </p>
+         </blockquote>
+
+
+         <blockquote>
+            <p>
+               <img src="star.png" alt="3 1/2 stars" /> <img src="star.png" alt="" />
+               <img src="star.png" alt="" /> <img src="halfstar.png" alt="" />
+            </p>
+            <p>Delicious!! I recommend microwaving the apples for 3 minutes 
+               before baking, to soften them. Great dessert - I'll be making it again 
+               for the holidays.</p>
+            <p>
+               &mdash; Reviewed on August 28, 2014 by BBABS.
+            </p>
+         </blockquote>
+      </section>
+
+      <footer>
+          dessertWeb &copy; 2014 English (US)
+          <span>
+            <a href="#">About</a>
+            <a href="#">Developers</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Help</a>
+          </span>
+      </footer>
+
+   </body>
+
+</html>
+
