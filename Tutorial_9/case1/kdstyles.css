@@ -1,0 +1,46 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 9
+   Case Problem 1
+
+   Kelsey's Diner Style Sheet
+
+   Author:    Michelle Pierce
+   Date:      11/20/16
+
+   Filename:         kdstyles.css
+   Supporting Files: 
+
+*/
+
+/* body styles */
+
+body {
+	background-image: url(tan.jpg);
+}
+
+/* header styles */
+
+h1, h5 {
+	text-align: center;
+}
+
+h1 {
+	color: green;
+}
+
+/* Image Styles */
+img {
+   border-width: 0px;
+}
+
+/* list styles styles */
+
+dt {
+	color: green;
+	font-family: sans-sarif;
+	
+}
+
+
+
