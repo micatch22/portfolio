@@ -31,7 +31,8 @@ header {
 	text-align: center;
 	color: rgb(25,25,112);	
 	text-shadow: black 1px 1px 0px, rgba(90, 127, 0, 0.7) 5px 5px 10px;	
-	margin: 1em 0em;
+	margin: 1em;
+	padding: 5px;
 	font-size: 2em;
 	
 	-moz-border-radius: 50px;
