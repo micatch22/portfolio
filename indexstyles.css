@@ -52,6 +52,7 @@ header h2 {
 }
 
 nav.horizontal {
+	width: 85%;
 	max-width: 780px;
 	min-width: 250px;
 }
@@ -60,7 +61,6 @@ nav.horizontal li{
 	background: url(limegreen.jpg);
    	font-family: Georgia, Arial, Helvetica, Sans-serif;
    	border: 1px solid rgb(171, 171, 171);
-   	display: block;
    	font-size: 18px;
    	font-weight: bold;
    	float: left;
@@ -70,11 +70,8 @@ nav.horizontal li{
    	margin: 3px 0.5%;
    	text-align: center;
 
-	width: 18%;
-	
-	
-	margin: 1em 0em;
-	list-style: 
+	width: 25%;
+ 
 	-moz-background-color: rgb(50,205,50);
 	-webkit-background-color: rgb(50,205,50);
 	background-color: rgb(50,205,50);
