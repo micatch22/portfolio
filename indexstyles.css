@@ -27,7 +27,9 @@ header {
 	display: block;
 	background-image: url(limegreen.jpg); 
 	background-repeat: no-repeat;
-	width: 85%
+	width: 85%;
+	max-width: 780px;
+	min-width: 250px;	
 	text-align: center;
 	color: rgb(25,25,112);	
 	text-shadow: black 1px 1px 0px, rgba(90, 127, 0, 0.7) 5px 5px 10px;	
