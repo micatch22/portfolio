@@ -78,6 +78,8 @@ nav.horizontal li{
 	-moz-box-shadow: inset white 3px 3px 2px, inset rgb(147, 207, 207) -5px -5px 5px;
 	-webkit-box-shadow: inset white 3px 3px 2px, inset rgb(147, 207, 207) -5px -5px 5px;
 	box-shadow: inset white 3px 3px 2px, inset rgb(147, 207, 207) -5px -5px 5px;
+	
+	background-image: url(limegreen.jpg);
 }
 
 nav.horizontal li:hover{
