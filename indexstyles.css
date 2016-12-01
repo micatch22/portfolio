@@ -25,7 +25,8 @@ body {
 
 header {
 	display: block;
-	background-image: url(limegreen.jpg); 	
+	background-image: url(limegreen.jpg); 
+	background-repeat: no-repeat;
 	width: 100%;
 	text-align: center;
 	color: rgb(25,25,112);	
