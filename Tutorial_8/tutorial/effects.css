@@ -1,0 +1,95 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 8
+   Tutorial Case
+
+   Special Effects style sheet
+   Author: Michelle Pierce
+   Date:   10/30/2016
+
+   Filename:         effects.css
+   Supporting Files: borderimg.png
+
+*/
+
+/* Heading text style */
+
+section#main h1 {
+	color: rgb(90, 127, 0);
+	text-shadow: black 1px 1px 0px,
+				rgba(90, 127, 0, 0.7) 5px 5px 10px;
+}
+
+/* Box shadow styles */
+
+figure img {
+	
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	
+	-moz-box-shadow: rgba(0, 0, 0, 0.6) 10px 10px 15px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.6) 10px 10px 15px;
+	box-shadow: rgba(0, 0, 0, 0.6) 10px 10px 15px;
+}
+
+section#main {
+	-moz-box-shadow: inset rgba(0, 0, 0, 0.3) -5px -5px 10px;
+	-webkit-box-shadow: inset rgba(0, 0, 0, 0.3) -5px -5px 10px;
+	box-shadow: inset rgba(0, 0, 0, 0.3) -5px -5px 10px;
+}
+
+section#main table {
+	-moz-box-shadow: black 5px 5px 5px;
+	-webkit-box-shadow: black 5px 5px 5px;
+	box-shadow: black 5px 5px 5px;
+}
+
+/* Rotate styles */
+
+figure#photo4 {
+	-o-transform: rotate(-30deg);
+	-moz-transform: rotate(-30deg);
+	-webkit-transform: rotate(-30deg);
+	-ms-transform: rotate(-30deg);
+	transform: rotate(-30deg);
+}
+
+figure#photo5 {
+	-o-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	transform: rotate(30deg);
+}
+
+/* Style rule to add a dark green vertical gradient to the
+	background of the article element */
+	
+	article {
+		background: -o-linear-gradient(black, rgb(51,101,51) 20%, white 80%);
+		background: -ms-linear-gradient(black, rgb(51,101,51) 20%, white 80%);
+		background: -webkit-linear-gradient(black, rgb(51,101,51) 20%, white 80%);
+		background:  linear-gradient(black, rgb(51,101,51) 20%, white 80%);
+	}
+	
+/* Border image style */
+
+article img {
+	border-width: 10px;
+	
+	-o-border-image: url("borderimg.png") 50 repeat;
+	-moz-border-image: url("borderimg.png") 50 repeat;
+	-webkit-border-image: url("borderimg.png") 50 repeat;
+	border-image: url("borderimg.png") 50 repeat;
+}
+
+/* Styles for semi-transparent images */
+
+figure#photo4, figure#photo5 {
+	opacity: 0.7;
+}
+
+
+
+
