@@ -66,7 +66,9 @@ nav.horizontal li{
    margin: 3px 0.5%;
    text-align: center;
 
-   width: 18%;
+	width: 18%;
+	max-width: 780px;
+	min-width: 250px;
 	
 	margin: 1em 0em;
 	list-style: 
