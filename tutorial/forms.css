@@ -1,0 +1,131 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 6
+   Tutorial Case
+
+   Survey Forms Style Sheet
+   Author: Michelle Pierce
+   Date:  10/23/2016
+
+   Filename:         forms.css
+   Supporting Files: customer.png, go.png, stop.png
+
+*/
+
+/* Field set styles */
+
+fieldset {
+	background-color: rgb(255, 246, 205);
+	border: 1px solid rgb(233, 69, 0);
+	float: left;
+	margin: 10px 0px 10px 2.5%;
+	width: 46%;
+}
+
+legend {
+	background-color: rgb(233, 69, 0);
+	color: white;
+	padding: 3px 0px;
+	text-indent: 5px;
+	width: 100%;
+}
+
+/* Label styles */
+
+label {
+	clear: left;
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 4% 7px 5px;
+	width: 40%;
+}
+
+/* Input control styles */
+
+input {
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 0px;
+	width: 50%;
+}
+
+input#state {
+	width: 50px;
+}
+
+/* selection list styles */
+
+select {
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 0px;
+}
+
+/* Option button styles */
+
+fieldset.optionGroup {
+	border-width: 0px;
+}
+
+fieldset.optionGroup label {
+	display: inline;
+	float: none;
+	margin: 0px 3px 0px 0px;
+	width: 30px;
+}
+fieldset.optionGroup input{
+		display:inline;
+		float: none;
+		margin: 0px 20px 0px 0px;
+		width: 20px;
+}
+
+/* Text area styles */
+
+textarea {
+	display: block;
+	font-size: 0.9em;
+	float: left;
+	height: 150px;
+	margin: 10px 0px;
+	width: 50%;
+}
+
+/* Check box styles */
+
+#newsletter {
+	color: rgb(233, 69, 0);
+	float: none;
+	margin: 10px auto;
+	text-align: center;
+	width: 90%;
+}
+
+#newsletter input {
+	display: inline;
+	float: none;
+	width: 20px;
+}
+
+/* Number input box styles */
+
+#ordersPerMonth {
+	width: 70px;
+}
+
+/* Range slider styles */
+
+label.sliderLabel {
+	clear: none;
+	font-size: 0.7em;
+	margin: 10px 0px;
+	text-align: center;
+	width: 10px;
+}
+
+input[type="range"] {
+	width: 150px;
+}
