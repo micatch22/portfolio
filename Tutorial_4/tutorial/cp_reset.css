@@ -1,0 +1,38 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 4
+   Tutorial Case
+
+   Cycle Pathology Styles to Reset Style Defaults
+   Author: Michelle Pierce
+   Date:   9/30/2016
+
+   Filename:         cp_reset.css
+   Supporting Files: none
+
+*/
+
+/* display HTML5 structural elements as blocks */
+
+header, aside, article, figure, figcaption, footer, hgroup, 
+section, nav {
+	display: block;
+}
+
+/* Set the default page element styles */
+
+body * {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	font-weight: inherit;
+	line-height: 1.2em;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: baseline;
+}
+
+/* Temporarily hide the page sections */
+
+
+

@@ -1,0 +1,252 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 4
+   Tutorial Case
+
+   Cycle Pathology Style Sheet
+   Author: Michelle Pierce	
+   Date:   9/30/2016
+
+   Filename:         cp_styles.css
+   Supporting Files: atwood.png, bike_bg.png, rawlings.png
+
+*/
+
+/* Sytles for the Page Body */
+body {
+	background: black url(bike_bg.png) top left no-repeat;
+	position: relative;
+	width: 95%;
+	min-width: 1000px;
+	lmax-width: 1400px;
+}
+
+/* Styles for the Page Header */
+
+header {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+/* general Navigation List Style */
+
+nav a {
+	text-decoration: none;
+}
+
+/* Horizontal Navigation List */
+
+nav.horizontalNAV {
+	margin-left: 33%;
+	width: 66%;
+}
+
+nav.horizontalNAV li {
+	font-size: 87.5%;
+	float: left;
+	padding: 15px 0px;
+	text-align: center;
+	width: 20%;
+
+}
+
+nav.horizontalNAV li a {
+	color: rgb(255, 255, 99);
+}
+
+nav.horizontalNAV li a:hover {
+	color: white;
+}
+
+/* President's message */
+
+#president {
+	background-color: rgb(105, 96, 87);
+	background-color: rgba(255, 255, 255, 0.3);
+	background-image: url(atwood.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	
+	-o-background-size: 40%;
+	-moz-background-size: 40%;
+	-webkit-background-size: 40%;
+	background-size: 40%;
+	
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	
+	clear: left;
+	float: left;
+	margin-left: 33%;
+	width: 40%;
+}
+
+#president h1 {
+	font-family: 'Lucida Calligarphy', 'Apple Chancery', cursive;
+	font-size: 158%;
+	font-weight: bold;
+	margin: 10px 0px 0px 10px;
+}
+
+#president h2 {
+	font-size: 105%;
+	margin: 0px 0px 10px 15px;
+}
+
+#president p {
+	font-size: 87.5%;
+	margin: 0px 40% 20px 15px;
+}
+
+/* Vertical navigation List */
+
+nav.verticalNAV {
+	float: left;
+	margin-left: 3%;
+	width: 23%;
+}
+nav.verticalNAV a {
+	border-bottom: 1px solid rgb(182, 182, 92);
+	color: rgb(182, 182, 92);
+	display: block;
+	line-height: 2.2em;
+}
+
+nav.verticalNAV a:hover {
+	background-color: rgb(105, 96, 87);
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Story section styles */
+
+#story {
+	background-color: gray;
+	background-color: rgba(255, 255, 255, 0.8);
+	clear: left;
+	float: left;
+	margin: 20px 0px 0px 33%;
+	width: 66%;
+}
+
+/* Article styles */
+
+#story article {
+	border-right: 1px solid black;
+	float: left;
+	width: 50%;
+}
+
+#story article hgroup {
+	background: rgb(97, 30, 2) url(rawlings.png) bottom right
+	no-repeat;
+	
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+	
+	color: rgb(145, 98, 78);
+	color: rgba(255, 255, 255, 0.3);
+	
+	height: 90px;
+	text-indent: 10px;
+}
+
+#story article hgroup h1 {
+	font-size: 158%;
+	letter-spacing: 3px;
+}
+
+#story article hgroup h2 {
+	font-size: 105%;
+}
+
+#story article p {
+	font-size: 80%;
+	margin: 10px;
+}
+
+#story article ul li {
+	font-size: 80%;
+	margin: 15px 25px;
+}
+
+#story article ul li strong {
+	font-weight: bold;
+}
+
+
+
+
+
+/* Figure box styles */
+
+#story figure {
+	float: left;
+	width: 49%;
+}
+
+#story figure img{
+	border: 5px inset rgb(227, 168, 145);
+	display: block;
+	margin: 30px auto 10px;
+	width: 80%;
+}
+
+#story figure figcaption{
+	font-size: 75%;
+	font-style: italic; 
+	text-align: center;
+}
+
+/* Sidebar styles */
+
+aside {
+	color: rgb(145, 98, 78);
+	
+	position: absolute;
+	top: 400px;
+	left: 10px;
+	
+	width: 30%;
+	height: 450px;
+	overflow: auto;
+}
+
+aside h1 {
+	font-size: 105%;
+	font-weight: bold;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+aside h2 {
+	font-size: 85%;
+	font-weight: bold;
+}
+
+aside p {
+	font-size: 75%;
+	margin: 15px;
+}
+
+/* Page footer styles */
+
+footer {
+	clear: left;
+	margin-left: 33%;
+	width: 66%;
+}
+
+footer address {
+	color: rgb(182, 182, 92);
+	font-size: 80%;
+	font-style: normal;
+	padding-top: 10px;
+	text-align: center;
+}
+
+
+

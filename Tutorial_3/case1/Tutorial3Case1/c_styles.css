@@ -1,0 +1,61 @@
+/*
+   New Perspectives on HTML
+   Tutorial 3
+   Case Problem 1
+
+   ICI Text and Color Styles
+   Author: Michelle Pierce 
+   Date:   09/23/2016
+
+   Filename:         c_styles.css
+   Supporting Files: none
+
+/* Body styles */
+
+body {
+	background-color: black;
+	color: white;
+	font-family: Century Gothic, sans-serif;
+}
+
+/* Header styles */
+
+header h1 {
+	color: yellow;
+	font-family: Courier New, Courier, monospace;
+	font-size: 28px;
+	line-height: 20px;
+	text-align: center;
+}
+
+/* Article Styles */
+
+article h2 {
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 5px;
+}
+
+article p {
+	text-align: justify;
+}
+
+/* Class Keyword Styles */
+
+strong.keyword {
+	color: yellow;
+	font-weight: normal;
+	
+}
+
+/* Footer Styles */
+
+footer p {
+	text-align: center;
+}
+
+/* Inline Image Styles */
+
+img[usemap]{
+	border-width: 0px;
+}

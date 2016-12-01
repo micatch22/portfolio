@@ -1,0 +1,112 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 4
+   Case Problem 1
+
+   History Style Sheet
+   Author: Michelle Pierce
+   Date:   9/30/2016
+
+   Filename:         history.css
+   Supporting Files: 
+
+*/
+
+/* Display header, section, and nav elements as blocks */
+
+header, p, section, nav{
+	display: block;
+}
+
+/* Set defaults for every element */
+
+body *{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Header Styles */
+
+header {
+	background-color: rgb(51, 51, 51);
+	text-align: center;
+	width: 55em;
+}
+
+header img {
+	height: 4em;
+}
+
+/* Navigation List Styles */
+
+nav ul{
+	background-color: rgb(51, 51, 51);
+	float: left;
+	width: 15em;
+}
+
+nav.vertical li{
+	font-family: 'Century Gothic', sans-serif;
+	font-size: .7em;
+	list-style-type: none;
+	line-height: 1.4em;
+	margin-bottom: 1.2em;
+	margin-left: 1em;
+}
+
+nav.vertical li a{
+	color: rgb(212, 212, 212);
+}
+
+nav.vertical li a:hover{
+	color: white;
+}
+
+/* Speech Section */
+
+#speech {
+	background-color: rgb(212, 212, 212);
+	width: 40em;
+	float: left;
+	font-family: 'Palatino Linotype', 'Book Antiqua', 'Palatino', serif;
+}
+
+#speech h1{
+	background-color: rgb(51, 51, 51);
+	color: rgb(212, 212, 212);
+	font-size: 2em;
+	text-align: center;
+}
+
+#speech p{
+	font-size: .9em;
+	margin: 1em;
+}
+
+#speech p:first-of-type:first-letter {
+	border-bottom: .02em
+					solid
+					black;
+	border-right: .02em
+					solid
+					black;
+	float: left;
+	font-size: 4em;
+	line-height: .8em;
+	margin-right: .3em;
+	padding-bottom: .2em;
+	padding-right: .2em;
+}
+
+#speech p:first-of-type:first-line {
+	text-transform: uppercase;
+}
+
+#speech img {
+	float: right;
+	height: 4em;
+	clear: right;
+}
+
+
+

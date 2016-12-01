@@ -1,0 +1,345 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 8
+   Case Problem 1
+
+   dessertWeb Layout Style Sheet
+
+   Filename:         dwlayout.css
+   Supporting Files: 
+
+*/
+
+html {
+   background-color: rgb(245, 245, 245);
+}
+
+body {
+   background-color: white;
+   float: none;
+   margin: 0px auto;
+   width: 90%;
+   max-width: 1000px;
+   min-width: 800px;
+}
+
+
+header {
+   background: white url(dw.png) top left no-repeat;
+   margin-bottom: 20px;
+}
+
+header h1 {
+   height: 60px;
+   visibility: hidden;
+}
+
+header div {
+   font-size: 11px;
+   font-family: 'Trebuchet MS', Helvetica, sans-serif;
+   float: right;
+   margin-right: 20px;
+   margin-top: 10px;
+}
+
+header #sbox {
+   width: 190px;
+}
+
+header #user, header #pwd {
+   width: 100px;
+}
+
+header div input[type='button'] {
+   text-align: center;
+   width: 60px;
+}
+
+
+
+header nav.horizontal {
+   border: 1px solid rgb(192, 192, 192);
+
+
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
+
+
+   height: 38px;
+   width: 98%;
+   margin: 0px 1%;
+}
+
+
+header nav.horizontal li {
+   border: 1px solid rgb(171, 171, 171);
+   display: block;
+   font-family: Tahoma, Geneva, sans-serif;
+   font-size: 12px;
+   font-weight: bold;
+   float: left;
+   height: 30px;
+   letter-spacing: =3px;
+   line-height: 30px;
+   margin: 3px 0.5%;
+   text-align: center;
+   width: 12%;
+}
+
+header nav.horizontal li:first-of-type {
+   margin-left: 4%;
+}
+header nav.horizontal li:last-of-type {
+   margin-right: 4%;
+}
+
+header nav.horizontal li a {
+   color: rgb(14, 166, 163);
+}
+
+
+
+/* section layout */
+
+section#left {
+   float: left;
+   width: 20%;
+}
+
+section#center {
+   float: left;
+   width: 50%;
+}
+
+section#right {
+   float: left;
+   width: 30%;
+}
+
+footer {
+   clear: left;
+}
+
+
+
+/* Left Section */
+
+section#left nav.vertical {
+   width: 80%;
+   margin: 0px auto 20px;
+   border: 1px solid rgb(221, 221, 221);
+
+   -moz-border-radius: 25px;
+   -webkit-border-radius: 25px;
+   border-radius: 25px;
+}
+
+
+
+
+section#left nav.vertical h1 {
+   font-size: 14px;
+   text-align: center;
+   width: 100%;
+   color: white;
+   background-color: rgb(22, 170, 167);
+
+   -moz-border-radius: 25px 25px 0px 0px;
+   -webkit-border-radius: 25px 25px 0px 0px;
+   border-radius: 25px 25px 0px 0px;
+}
+
+section#left nav.vertical ul li {
+   font-size: 12px;
+   line-height: 2;
+   margin: 5px 0px 5px 20px;
+}
+
+section#left nav.vertical ul li:last-of-type {
+   margin-bottom: 20px;
+}
+
+section#left nav.vertical a {
+   color: rgb(151, 151, 151);
+}
+
+section#left nav.vertical a:hover {
+   text-decoration: underline;
+}
+
+
+
+/* Center section */
+
+article {
+   width: 95%;
+   margin: 0px auto;
+   border: 1px solid rgb(221, 221, 221);
+
+   -moz-border-radius: 25px;
+   -webkit-border-radius: 25px;
+   border-radius: 25px;
+}
+
+article hgroup {
+   margin: 15px 0px 0px 15px;
+}
+
+article hgroup h1 {
+   color: rgb(101, 101, 101);
+   font-size: 24px;
+}
+
+section#center article hgroup h2 {
+   font-size: 14px;
+   color: rgb(101, 101, 101);
+   margin: 10px 0px 10px 15px;
+}
+
+
+
+#dishimg {
+   width: 55%;
+   float: left;
+   margin: 15px;
+}
+
+article p:first-of-type {
+   margin-right: 10px;
+   color: rgb(151, 151, 151);
+}
+
+article p:last-of-type {
+   clear: left;
+   font-size: 14px;
+   color: rgb(0, 167, 167);
+   margin: 0px 0px 20px 15px;
+}
+
+article p:last-of-type a {
+   color: rgb(0, 167, 167);
+}
+
+
+section#center aside {
+   float: right;
+   width: 35%;
+
+   border: 1px solid rgb(221, 221, 221);
+
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+
+   margin: 15px;
+}
+
+section#center aside h1 {
+   font-size: 14px;
+   text-align: center;
+   background-color: rgb(0, 167, 167);
+   margin-bottom: 10px;
+   height: 20px;
+   color: white;
+}
+
+section#center aside ul {
+   margin-left: 0px;
+}
+
+section#center aside li {
+   color: rgb(51, 51, 51);
+   font-size: 12px;
+   line-height: 24px;
+   padding-left: 10px;
+   margin-left: 0px;
+}
+
+section#center aside li:nth-of-type(odd) {
+   background-color: rgb(211, 211, 211);
+}
+
+section#center aside li:nth-of-type(even) {
+   background-color: white;
+}
+
+section#center aside li a {
+   color: rgb(101, 101, 101);
+}
+
+section#center h2 {
+   font-size: 16px;
+   color: rgb(101, 101, 101);
+   clear: left;
+   font-weight: bold;
+   margin: 10px 0px 10px 15px;
+}
+
+section#center li {
+   font-size: 14px;
+   color: rgb(101, 101, 101);
+   margin-left: 15px;
+   line-height: 20px;
+}
+
+section#center ol {
+   list-style-type: decimal;
+   margin-left: 20px;
+}
+
+
+section#right h1 {
+   font-size: 16px;
+   margin-left: 10%;
+   margin-bottom: 15px;
+}
+
+section#right p {
+   margin-left: 10%;
+}
+
+section#right blockquote {
+   margin-top: 10px;
+   margin-bottom: 20px;
+   margin-right: 5%;
+   margin-left: 10%;
+   padding-left: 10%;
+   padding-top: 15px;
+   border-bottom: 1px solid rgb(221, 221, 221);
+   width: 70%;
+}
+
+section#right blockquote p {
+   margin-left: 0px;
+   font-size: 14px;
+   margin-bottom: 10px;
+   color: rgb(64, 202, 202);
+}
+
+
+footer {
+   margin-top: 15px;
+   border-top: 1px solid rgb(171, 171, 171);
+   text-align: right;
+}
+
+footer, footer span  a {
+   font-size: 11px;
+   padding: 10px;
+   color: rgb(101, 101, 101);
+}
+
+footer span a:hover {
+   color: rgb(0, 167, 167);
+   text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+

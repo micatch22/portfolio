@@ -1,0 +1,85 @@
+﻿/*
+   New Perspectives on HTML
+   
+	Michelle's Portfolio Index Style Sheet
+   Author: Michelle Pierce
+   Date:   11/30/2016
+
+   Filename:         indexstyles.css
+   Supporting Files: none
+
+*/
+
+* {
+	display: block;
+	font-family: Georgia, Arial, Helvetica, Sans-serif;
+	color: rgb(25,25,112);
+}
+body {
+	display: block;
+		background: -o-linear-gradient(black, rgb(25,25,112) 20%, white 99%);
+		background: -ms-linear-gradient(black, rgb(25,25,112) 20%, white 99%);
+		background: -webkit-linear-gradient(black, rgb(25,25,112) 20%, white 99%);
+		background:  linear-gradient(black, rgb(25,25,112) 20%, white 99%);
+}
+
+header {
+	display: block;
+	background: rgb(50,205,50);
+	width: 100%;
+	text-align: center;
+	color: rgb(25,25,112);	
+	text-shadow: black 1px 1px 0px, rgba(90, 127, 0, 0.7) 5px 5px 10px;	
+	margin: 1em 0em;
+	font-size: 2em;
+	
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+
+
+header h2 {
+font-size: 1.2em;
+font-style: italic;
+margin: 0em;
+padding-bottom: 0.5em;
+}
+
+nav.horizontal li{
+	
+   font-family: Georgia, Arial, Helvetica, Sans-serif;
+   border: 1px solid rgb(171, 171, 171);
+   display: block;
+   font-size: 18px;
+   font-weight: bold;
+   float: left;
+   height: 50px;
+   letter-spacing: =3px;
+	line-height: 50px;
+   margin: 3px 0.5%;
+   text-align: center;
+
+   width: 24%;
+	
+	margin: 1em 0em;
+	list-style: 
+	-moz-background-color: rgb(50,205,50);
+	-webkit-background-color: rgb(50,205,50);
+	background-color: rgb(50,205,50);
+	
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	
+	-moz-box-shadow: inset white 3px 3px 2px, inset rgb(147, 207, 207) -5px -5px 5px;
+	-webkit-box-shadow: inset white 3px 3px 2px, inset rgb(147, 207, 207) -5px -5px 5px;
+	box-shadow: inset white 3px 3px 2px, inset rgb(147, 207, 207) -5px -5px 5px;
+}
+
+nav.horizontal li:hover{
+	background-color: rgb(255,255,255);
+	
+}
+
