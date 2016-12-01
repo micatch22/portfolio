@@ -51,6 +51,7 @@ padding-bottom: 0.5em;
 
 nav.horizontal li{
 	
+	background: url(limegreen.jpg);
    font-family: Georgia, Arial, Helvetica, Sans-serif;
    border: 1px solid rgb(171, 171, 171);
    display: block;
@@ -78,8 +79,7 @@ nav.horizontal li{
 	-moz-box-shadow: inset white 3px 3px 2px, inset rgb(147, 207, 207) -5px -5px 5px;
 	-webkit-box-shadow: inset white 3px 3px 2px, inset rgb(147, 207, 207) -5px -5px 5px;
 	box-shadow: inset white 3px 3px 2px, inset rgb(147, 207, 207) -5px -5px 5px;
-	
-	background-image: url(limegreen.jpg);
+
 }
 
 nav.horizontal li:hover{
